@@ -52,9 +52,9 @@ class Point {
     }
     
     void moveRight() {
-      _x--;
-      if (_x < 0) {
-        _x = WIDTH - 1;
+      _x++;
+      if (_x >= WIDTH) {
+        _x = 0;
       }
     }
     
