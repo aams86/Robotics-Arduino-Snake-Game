@@ -30,14 +30,14 @@ class Point {
     }
     
     //move functions
-    void moveUp() {
+    void moveDown() {
       _y++;
       if (_y >= HEIGHT) {
         _y = 0;
       }
     }
     
-    void moveDown() {
+    void moveUp() {
       _y--;
       if (_y < 0) {
         _y = HEIGHT - 1;
